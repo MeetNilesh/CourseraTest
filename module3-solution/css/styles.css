@@ -53,19 +53,6 @@ body {
   font-size: 1.8em;
 }
 
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -74,14 +61,6 @@ body {
   margin-top: -30px;
 }
 /* END HEADER */
-
-
-
-
-
-
-
-
 
   .navbar-brand {
     padding-top: 10px;
@@ -110,14 +89,44 @@ body {
   }
 
 
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
+  
   /* End Header */
 
-
-
+section>div{
+  border: 1px solid gray;
+  position: relative;
+  float: left;
+  margin: 10px; 
+  overflow: auto;  
+  height: 400px;
 }
+
+div>span
+{
+  position: absolute;
+  right: 0;
+  top: 0;  
+  width: 100%;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.p{
+  position: absolute;
+  top:25px;
+  left: 0px;
+  margin: 5px;
+  text-align: justify;
+  font-size: 0.9em;
+}
+
+.link
+{
+  color: white;
+  text-transform: none;
+  text-decoration: none;;
+}
+
